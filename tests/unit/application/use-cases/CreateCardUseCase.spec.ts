@@ -7,6 +7,8 @@ import { User } from "../../../../src/domain/entities/User";
 import { NotFoundError } from "../../../../src/shared/errors/NotFoundError";
 import { ValidationError } from "../../../../src/shared/errors/ValidationError";
 
+const PASSWORD_HASH = "hash";
+
 describe("CreateCardUseCase", () => {
   it("should create card for existing user", async () => {
     const userRepository: UserRepository = {
@@ -15,7 +17,8 @@ describe("CreateCardUseCase", () => {
           id: "user-1",
           name: "Alice",
           email: "alice@mail.com",
-          passwordHash: "hash",
+          passwordHash: PASSWORD_HASH,
+
           createdAt: new Date()
         })
       ),
@@ -76,7 +79,8 @@ describe("CreateCardUseCase", () => {
           id: "user-1",
           name: "Alice",
           email: "alice@mail.com",
-          passwordHash: "hash",
+          passwordHash: PASSWORD_HASH,
+
           createdAt: new Date()
         })
       ),
