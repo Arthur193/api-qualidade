@@ -6,6 +6,13 @@
       "email": "alice@mail.com",
       "passwordHash": "$2b$10$5hWX8f2p.wfs6fZ1XTBdY.jTH3eyEYg9zpwKLD9gvCvWBHcecpVHG",
       "createdAt": "2026-03-05T04:15:22.640Z"
+    },
+    {
+      "id": "79b3d745-230f-4a9f-9ca2-73083f67e947",
+      "name": "Arthur",
+      "email": "arthursr11@mail.com",
+      "passwordHash": "$2b$10$4iVNLcMyuNA7ag9Iz3G5yuQCeIc1uF8LAll.rA2JoFfa3GEj/CNwu",
+      "createdAt": "2026-03-06T11:09:34.063Z"
     }
   ],
   "cards": [
@@ -17,6 +24,33 @@
       "availableLimitCents": 490000,
       "status": "ACTIVE",
       "createdAt": "2026-03-05T04:16:02.004Z"
+    },
+    {
+      "id": "65c3c567-e0fb-45f3-8f60-a8480384c86a",
+      "userId": "79b3d745-230f-4a9f-9ca2-73083f67e947",
+      "last4": "1234",
+      "limitCents": 500000,
+      "availableLimitCents": 500000,
+      "status": "ACTIVE",
+      "createdAt": "2026-03-06T11:10:27.821Z"
+    },
+    {
+      "id": "0a8da562-cced-4a8c-9ca3-255d109f1510",
+      "userId": "79b3d745-230f-4a9f-9ca2-73083f67e947",
+      "last4": "1234",
+      "limitCents": 500000,
+      "availableLimitCents": 500000,
+      "status": "ACTIVE",
+      "createdAt": "2026-03-06T11:28:03.287Z"
+    },
+    {
+      "id": "8ced4046-3ad4-4b60-9c16-e4dd4d316fcc",
+      "userId": "79b3d745-230f-4a9f-9ca2-73083f67e947",
+      "last4": "1234",
+      "limitCents": 500000,
+      "availableLimitCents": 500000,
+      "status": "ACTIVE",
+      "createdAt": "2026-03-06T11:32:06.432Z"
     }
   ],
   "transactions": [
